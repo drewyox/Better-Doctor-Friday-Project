@@ -2,7 +2,7 @@
 class Usersymp {
 
   let request = new XMLHttpRequest();
-  const url = `https://developer.betterdoctor.com/2016-03-01/&appid=API-KEY-GOES-HERE,`;
+  const url = `https://api.betterdoctor.com/2016-03-01/&appid=API-KEY-GOES-HERE,`;
 
   request.onreadystatechange = function() {
     if (this.status === 200) {
